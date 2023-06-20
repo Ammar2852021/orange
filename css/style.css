@@ -53,7 +53,7 @@ position: relative;
 }
 
 .sidebar {
-width: 220px;
+width: 100%;
 padding: 30px;
 display: flex;
 flex-direction: column;
@@ -449,6 +449,8 @@ color: #e7bb7d;}
 margin-left: 0;}
 
 @media screen and (max-width: 905px) {
+
+
 .main-blog, .main-blog + .main-blog {
 width: 50%;
 padding: 30px;}
@@ -1005,7 +1007,7 @@ height: 40px;
 border-radius: 3px;
 cursor: pointer;
 transition: 0.3s;
-margin-bottom: 15vh;}
+margin-bottom: 5vh;}
 
 .chat-vid__button:hover {
 background-color: var(--color-or);}
@@ -1170,6 +1172,10 @@ background-size: cover;}}
 
 
 @media screen and (max-width: 992px) {
+
+  .logo-or img {width: 40px; margin-right: 10px;}
+  .logo-or{margin-top: 10vh;}
+
 .main-blog__title {
 font-size: 20px;}
 

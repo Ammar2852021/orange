@@ -235,10 +235,17 @@ color: #fff;
 font-size: 12px;
 letter-spacing: 0.07em;
 margin-bottom: 24px;
+
+}
+#bord
+{
+  margin: 20px 0px;
+border-top: 1px solid var(--border-color);
+padding-top: 15px;
+
 }
 
 .side-wrapper {
-border-bottom: 1px solid var(--border-color);
 padding: 36px 0;
 width: 145px;
 }

@@ -50,7 +50,6 @@ width: 100%;
 font-size: 15px;
 font-weight: 500;
 position: relative;
-background-color: red;
 }
 
 .sidebar {
@@ -60,8 +59,9 @@ display: flex;
 flex-direction: column;
 flex-shrink: 0;
 transition-duration: 0.2s;
-overflow-y: auto;
-overflow-x: hidden;}
+overflow: auto;
+
+;}
 
 .sidebar .logo {
 display: none;

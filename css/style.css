@@ -49,7 +49,9 @@ overflow: hidden;
 width: 100%;
 font-size: 15px;
 font-weight: 500;
-position: relative;}
+position: relative;
+background-color: red;
+}
 
 .sidebar {
 width: 220px;
@@ -1201,9 +1203,7 @@ align-items: center;}
 body {
 padding: 0;}
 
-.container {
-border-radius: 0;
-max-height: 100%;}}
+
 
 ::-webkit-scrollbar {
 width: 6px;

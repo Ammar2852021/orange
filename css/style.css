@@ -36,7 +36,6 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
   overflow: hidden;}
 
 
@@ -44,7 +43,6 @@ body {
   background-color: var(--theme-bg);
   max-width: 100%;
   max-height: 100%;
-  height: 100vh;
   overflow: hidden;
   display: flex;
   overflow: hidden;
@@ -55,7 +53,6 @@ body {
 
 .sidebar {
   width: 220px;
-  height: 100%;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -986,6 +983,7 @@ border-radius: 10px;}
   border-radius: 3px;
   cursor: pointer;
   transition: 0.3s;
+  margin-bottom: 15vh;
 }
 .chat-vid__button:hover {
   background-color: var(--color-or);
@@ -1213,7 +1211,6 @@ button.vjs-play-control.vjs-control.vjs-button {
   }
 
   .container {
-    height: 100vh;
     border-radius: 0;
     max-height: 100%;
   }

@@ -1170,9 +1170,8 @@ background-size: cover;}}
 
 @media screen and (max-width: 992px) {
 
-  .logo-or{width: 40px; margin-right: 10px; display: none;}
-
-  .sidebar{margin-top: 5vh;}
+  .logo-or img {width: 40px; margin-right: 10px;}
+  .logo-or{margin-top: 10vh;}
 
 .main-blog__title {
 font-size: 20px;}
@@ -1240,7 +1239,8 @@ text-align: center;}}
 width: 100%;
 background-color: black;
 position: fixed;
-z-index: 999;}
+z-index: 999;
+}
 
 .top{width: 50px;
   height: 50px;
@@ -1267,3 +1267,8 @@ z-index: 999;}
 }
 
 ::-webkit-scrollbar{width: 0px;}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;}

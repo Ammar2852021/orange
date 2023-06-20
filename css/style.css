@@ -929,9 +929,9 @@ border-radius: 10px;}
   color: #fff;
   font-size: 18px;
 }
-.chat-vid__container {
+/* .chat-vid__container {
   margin: 1vh 0px 0px   20px;
-}
+} */
 .chat-vid__wrapper {
   display: grid;
   align-items: center;

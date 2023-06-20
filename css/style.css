@@ -53,7 +53,7 @@ position: relative;
 }
 
 .sidebar {
-width: 100%;
+width: 220px;
 padding: 30px;
 display: flex;
 flex-direction: column;
@@ -998,7 +998,7 @@ background-color: var(--color-or);
 border: 0;
 color: #fff;
 font-size: 13px;
-margin-top: 26px;
+margin-top: 15px;
 display: flex;
 padding: 0 10px;
 align-items: center;
@@ -1264,6 +1264,18 @@ z-index: 999;
 .video-tube{margin-top: 10vh;}
 .MENU{display: flex;}
 .top{display: block;}}
+
+.sidebar {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  transition-duration: 0.2s;
+  overflow: auto;
+  
+  ;}
+
 }
 
 ::-webkit-scrollbar{width: 0px;}

@@ -1170,8 +1170,9 @@ background-size: cover;}}
 
 @media screen and (max-width: 992px) {
 
-  .logo-or img {width: 40px; margin-right: 10px;}
-  .logo-or{margin-top: 10vh;}
+  .logo-or{width: 40px; margin-right: 10px; display: none;}
+
+  .sidebar{margin-top: 5vh;}
 
 .main-blog__title {
 font-size: 20px;}

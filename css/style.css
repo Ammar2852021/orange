@@ -706,7 +706,8 @@ video {
 }
 
 .video-tube{width: 100%;
-height: auto;
+height: 35vh;
+overflow: hidden;
 margin-top: 10vh;
 margin-bottom: 5vh;
 border-radius: 10px;}

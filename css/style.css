@@ -1265,16 +1265,7 @@ z-index: 999;
 .MENU{display: flex;}
 .top{display: block;}}
 
-.sidebar {
-  width: 100%;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  transition-duration: 0.2s;
-  overflow: auto;
-  
-  ;}
+
 
 }
 

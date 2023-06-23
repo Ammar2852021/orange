@@ -558,7 +558,7 @@ margin: 20px;}
 
 .video-detail{margin-top: 0%;}
 
-.container {display: block; height: 115vh;}
+.container {display: block;}
 
 .videos {grid-template-columns: repeat(2, 1fr);}}
 

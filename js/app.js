@@ -13,3 +13,24 @@ burger.addEventListener('click',function myFunction() {
 
 
 
+// TOP & BUT
+
+let topicons = document.getElementById('top-icons');
+let buticons = document.getElementById('but-icons');
+
+
+
+buticons.addEventListener('click',function()
+{
+    buticons.style.display='none';
+
+})
+
+
+topicons.addEventListener('click',function()
+{
+    topicons.style.display='none';
+    buticons.style.display='block';
+
+
+})

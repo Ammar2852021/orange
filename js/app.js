@@ -21,16 +21,8 @@ let buticons = document.getElementById('but-icons');
 
 
 buticons.addEventListener('click',function()
-{
-    buticons.style.display='none';
-
-})
-
-
-topicons.addEventListener('click',function()
-{
-    topicons.style.display='none';
-    buticons.style.display='block';
-
-
-})
+{   buticons.style.display='none';
+    topicons.style.display='block';})
+topicons.addEventListener('click',function(){
+topicons.style.display='none';
+buticons.style.display='block';})

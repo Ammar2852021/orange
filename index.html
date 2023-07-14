@@ -373,7 +373,8 @@
 
 
 
-                  <div class="chat-vid__button anim" style="--delay: .6s">See All related videos (<span id="num"></span>)</div>
+                  <div class="chat-vid__button anim" style="--delay: .6s">See All related videos (<span
+                      id="num"></span>)</div>
                 </div>
               </div>
             </div>
@@ -389,10 +390,33 @@
 
 
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+          integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 
+        <script>
+          let menuicon = $('.menu-icon:eq(0)');
+          // استدعاء الدالة بعد تحميل المستند
+          $(document).ready(function () {
+            // اختيار جميع روابط القائمة
+            $('.link_vall defalute').click(function (event) {
+              // منع سلوك الافتراضي للرابط
+              event.preventDefault();
 
+              // الحصول على الهاش تاج المستهدف
+              var target = $(this).attr('href');
+              menuicon.click();
+              // التحرك بسلاسة إلى العنصر المستهدف بالتمرير
+              $('html, body').animate({
+                scrollTop: $(target).offset().top
+              }, 500); // تعيين الوقت المستغرق للتمرير (1000 مللي ثانية هنا يوافق ثانية واحدة)
+            });
+          });
+
+
+        </script>
 
 
 

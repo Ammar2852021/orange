@@ -23,8 +23,11 @@ topicons.addEventListener("click", function () {
   buticons.style.display = "block";
 });
 
-let orange = document.getElementById("name");
+let link_vall = document.getElementById("link_vall");
 
-orange.addEventListener("click", function () {
-  console.log(12222);
-});
+console.log(link_vall);
+let ALL = document.getElementById("ALL");
+
+console.log(ALL);
+
+

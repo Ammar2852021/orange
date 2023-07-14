@@ -19,7 +19,7 @@
 
 
     <button class="top" id="top-icons" style="display: none;">
-      <a href="#video-top">
+      <a href="#MENU">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
           viewBox="0 0 16 16">
           <path fill-rule="evenodd"
@@ -30,7 +30,7 @@
 
 
     <button class="top" id="but-icons">
-      <a href="#message-div">
+      <a href="#num">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down"
           viewBox="0 0 16 16">
           <path fill-rule="evenodd"
@@ -388,35 +388,6 @@
 
 
 
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-          integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-
-        <script>
-          let menuicon = $('.menu-icon:eq(0)');
-          // استدعاء الدالة بعد تحميل المستند
-          $(document).ready(function () {
-            // اختيار جميع روابط القائمة
-            $('.link_vall defalute').click(function (event) {
-              // منع سلوك الافتراضي للرابط
-              event.preventDefault();
-
-              // الحصول على الهاش تاج المستهدف
-              var target = $(this).attr('href');
-              menuicon.click();
-              // التحرك بسلاسة إلى العنصر المستهدف بالتمرير
-              $('html, body').animate({
-                scrollTop: $(target).offset().top
-              }, 500); // تعيين الوقت المستغرق للتمرير (1000 مللي ثانية هنا يوافق ثانية واحدة)
-            });
-          });
-
-
-        </script>
 
 
 

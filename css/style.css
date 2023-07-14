@@ -33,8 +33,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 background: black;
-width: 100%;
-overflow: hidden;}
+width: 100%;}
 
 
 .container {
@@ -51,7 +50,7 @@ position: relative;
 
 .sidebar {
 width: 220px;
-height: 115vh;
+height: auto;
 padding: 30px;
 display: flex;
 flex-direction: column;
@@ -694,7 +693,7 @@ display: none;
 -o-object-fit: cover;
 object-fit: cover;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 2fr 1fr;
 }
 
 
@@ -846,7 +845,7 @@ margin-left: 30px;}
 
 .video-detail {
 display: flex;
-margin-top: 30px;
+/* margin-top: 30px; */
 width: 100%;}
 
 .chat-header {

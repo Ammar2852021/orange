@@ -217,7 +217,7 @@ body {
   color: var(--body-color);
 }
 .side-menu a + a {
-  margin-top: 26px;
+  margin-top: 20px;
 }
 .side-menu svg {
   width: 30px;
@@ -1371,4 +1371,8 @@ button.vjs-play-control.vjs-control.vjs-button {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+.city {
+  display: none;
 }

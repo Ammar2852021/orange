@@ -23,42 +23,74 @@ topicons.addEventListener("click", function () {
   buticons.style.display = "block";
 });
 
-// let link_vall = document.getElementById("link_vall");
+let NEWS_click = document.getElementById("NEWS_click");
+let SPORTS_click = document.getElementById("SPORTS_click");
+let MOVIES_click = document.getElementById("MOVIES_click");
+let SERIES_click = document.getElementById("SERIES_click");
+let KIDS_click = document.getElementById("KIDS_click");
 
-// let ALL = document.getElementById("ALL");
-// let video = document.getElementById("video");
+let NEWS = document.getElementById("News");
+let SPORTS = document.getElementById("Sports");
+let MOVIES = document.getElementById("Movies");
+let SERIES = document.getElementById("Series");
+let KIDS = document.getElementById("Kids");
+let All = document.getElementById("All");
 
-// let num = document.getElementById("num");
-// num.innerText = video.children.length;
+NEWS_click.addEventListener("click", function () {
+  NEWS.style.display = "block";
+  SPORTS.style.display = "none";
+  MOVIES.style.display = "none";
+  SERIES.style.display = "none";
+  All.style.display = "none";
+  Kids.style.display = "none";
+});
 
-// link_vall.addEventListener("click", (e) => {
-//   if (e.target.id !== "link_vall") {
-//     console.log(e.target.innerText);
-//     // let fun = Math.floor(Math.random() * (10 - 5) + 5);
-//     if (e.target.innerText == "MOVIES") {
-//       fun = 5;
-//     }
-//     video.innerHTML = div.repeat(fun);
-//     num.innerText = fun;
-//   }
+SPORTS_click.addEventListener("click", function () {
+  NEWS.style.display = "none";
+  SPORTS.style.display = "block";
+  MOVIES.style.display = "none";
+  SERIES.style.display = "none";
+  All.style.display = "none";
+  Kids.style.display = "none";
+});
 
-//   ALL.innerText = e.target.innerText;
-// });
+MOVIES_click.addEventListener("click", function () {
+  NEWS.style.display = "none";
+  SPORTS.style.display = "none";
+  MOVIES.style.display = "block";
+  SERIES.style.display = "none";
+  All.style.display = "none";
+  Kids.style.display = "none";
+});
 
-// console.log(video);
+SERIES_click.addEventListener("click", function () {
+  NEWS.style.display = "none";
+  SPORTS.style.display = "none";
+  MOVIES.style.display = "none";
+  SERIES.style.display = "block";
+  All.style.display = "none";
+  Kids.style.display = "none";
 
-// let NEWS_click = document.getElementById("NEWS_click");
-// let SPORTS_click = document.getElementById("SPORTS_click");
-// let MOVIES_click = document.getElementById("MOVIES_click");
-// let SERIES_click = document.getElementById("SERIES_click");
-// let KIDS_click = document.getElementById("MOVIES_click");
+});
 
-// let NEWS = document.getElementById("NEWS");
-// let SPORTS = document.getElementById("SPORTS");
-// let MOVIES = document.getElementById("MOVIES");
-// let SERIES = document.getElementById("SERIES");
-// let KIDS = document.getElementById("MOVIES");
+KIDS_click.addEventListener("click", function () {
+  Kids.style.display = "block";
+  NEWS.style.display = "none";
+  SPORTS.style.display = "none";
+  MOVIES.style.display = "none";
+  SERIES.style.display = "none";
+  All.style.display = "none";
+});
 
-// NEWS_click.addEventListener("click", function () {
-//   NEWS.style.display = "block";
-// });
+
+
+let ALL = document.getElementById("ALL");
+let link_vall = document.getElementById("link_vall");
+link_vall.addEventListener("click", (e) => {
+
+  ALL.innerText = e.target.innerText;
+});
+
+
+
+

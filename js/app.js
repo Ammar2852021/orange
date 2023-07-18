@@ -28,6 +28,7 @@ let SPORTS_click = document.getElementById("SPORTS_click");
 let MOVIES_click = document.getElementById("MOVIES_click");
 let SERIES_click = document.getElementById("SERIES_click");
 let KIDS_click = document.getElementById("KIDS_click");
+let num = document.getElementById("num");
 
 let NEWS = document.getElementById("News");
 let SPORTS = document.getElementById("Sports");
@@ -70,7 +71,6 @@ SERIES_click.addEventListener("click", function () {
   SERIES.style.display = "block";
   All.style.display = "none";
   Kids.style.display = "none";
-
 });
 
 KIDS_click.addEventListener("click", function () {
@@ -82,15 +82,33 @@ KIDS_click.addEventListener("click", function () {
   All.style.display = "none";
 });
 
-
+num.addEventListener("click", function () {
+  Kids.style.display = "block";
+  NEWS.style.display = "block";
+  SPORTS.style.display = "block";
+  MOVIES.style.display = "block";
+  SERIES.style.display = "block";
+  All.style.display = "block";
+});
 
 let ALL = document.getElementById("ALL");
-let link_vall = document.getElementById("link_vall");
-link_vall.addEventListener("click", (e) => {
 
+NEWS_click.addEventListener("click", (e) => {
   ALL.innerText = e.target.innerText;
 });
 
+SPORTS_click.addEventListener("click", (e) => {
+  ALL.innerText = e.target.innerText;
+});
 
+MOVIES_click.addEventListener("click", (e) => {
+  ALL.innerText = e.target.innerText;
+});
 
+SERIES_click.addEventListener("click", (e) => {
+  ALL.innerText = e.target.innerText;
+});
 
+KIDS_click.addEventListener("click", (e) => {
+  ALL.innerText = e.target.innerText;
+});

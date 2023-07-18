@@ -112,3 +112,6 @@ SERIES_click.addEventListener("click", (e) => {
 KIDS_click.addEventListener("click", (e) => {
   ALL.innerText = e.target.innerText;
 });
+num.addEventListener("click", (e) => {
+  ALL.innerText = e.target.innerText;
+});
